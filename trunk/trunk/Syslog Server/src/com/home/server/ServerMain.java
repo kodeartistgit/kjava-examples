@@ -8,7 +8,7 @@ import org.productivity.java.syslog4j.server.impl.net.udp.UDPNetSyslogServerConf
 
 public class ServerMain {
 	int port = 514;
-	String host ;
+	String host ="192.168.1.1";
 ServerMain(String host, int port)
 {
 	this.port = port;
